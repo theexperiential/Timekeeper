@@ -190,8 +190,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				-153.0,
-				0.0
+				3430.0,
+				193.0
 			]
 		}
 	},
