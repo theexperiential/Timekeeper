@@ -86,7 +86,25 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.1
+			"val": 0.135
+		},
+		"Tabcolor": {
+			"name": "Tabcolor",
+			"label": "Tab Color",
+			"page": "Appearance",
+			"style": "RGB",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 0.20000000298023224
 		},
 		"Textcolor": {
 			"name": "Textcolor",
@@ -124,7 +142,7 @@
 			"clampMax": false,
 			"val": [
 				0.8,
-				0.24,
+				0.106667,
 				0.0
 			]
 		},
@@ -180,7 +198,7 @@
 			"style": "XY",
 			"default": 0.0,
 			"enable": true,
-			"startSection": false,
+			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
 			"min": 0.0,
@@ -190,8 +208,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3430.0,
-				193.0
+				996.0,
+				1.0
 			]
 		}
 	},
