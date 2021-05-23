@@ -208,8 +208,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				996.0,
-				1.0
+				3241.0,
+				280.0
 			]
 		}
 	},

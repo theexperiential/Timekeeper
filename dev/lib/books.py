@@ -7,14 +7,6 @@
 					"test": ""
 				},
 				{
-					"name": "bbb",
-					"test": ""
-				},
-				{
-					"name": "ccc",
-					"test": ""
-				},
-				{
 					"name": "ddd",
 					"test": ""
 				},
@@ -33,18 +25,18 @@
 			]
 		},
 		{
-			"Customers": [
+			"Clients": [
 				{
 					"name": "TEC"
-				},
-				{
-					"name": "Weyland Industries"
 				},
 				{
 					"name": "ha"
 				},
 				{
 					"name": "Downstream"
+				},
+				{
+					"name": "Weyland Industries"
 				}
 			]
 		},
@@ -83,6 +75,9 @@
 				},
 				{
 					"name": "task4"
+				},
+				{
+					"name": "Software Engineering"
 				}
 			]
 		}
