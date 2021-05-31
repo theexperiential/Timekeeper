@@ -117,7 +117,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1
+			"val": 6
 		},
 		"Selectedday": {
 			"name": "Selectedday",
@@ -138,6 +138,25 @@
 			"clampMax": false,
 			"val": 31
 		},
+		"Selecteddayindex": {
+			"name": "Selecteddayindex",
+			"label": "Selected Day Index",
+			"page": "Calendar",
+			"style": "Int",
+			"size": 1,
+			"default": 0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 6.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 0
+		},
 		"Week1": {
 			"name": "Week1",
 			"label": "Week 1",
@@ -146,7 +165,7 @@
 			"default": "",
 			"enable": true,
 			"startSection": false,
-			"readOnly": false,
+			"readOnly": true,
 			"enableExpr": null,
 			"val": "''26'  '27'  '28'  '29'  '30'  '01'  '02''"
 		},
@@ -158,7 +177,7 @@
 			"default": "",
 			"enable": true,
 			"startSection": false,
-			"readOnly": false,
+			"readOnly": true,
 			"enableExpr": null,
 			"val": "''03'  '04'  '05'  '06'  '07'  '08'  '09''"
 		},
@@ -170,7 +189,7 @@
 			"default": "",
 			"enable": true,
 			"startSection": false,
-			"readOnly": false,
+			"readOnly": true,
 			"enableExpr": null,
 			"val": "''10'  '11'  '12'  '13'  '14'  '15'  '16''"
 		},
@@ -182,7 +201,7 @@
 			"default": "",
 			"enable": true,
 			"startSection": false,
-			"readOnly": false,
+			"readOnly": true,
 			"enableExpr": null,
 			"val": "''17'  '18'  '19'  '20'  '21'  '22'  '23''"
 		},
@@ -194,7 +213,7 @@
 			"default": "",
 			"enable": true,
 			"startSection": false,
-			"readOnly": false,
+			"readOnly": true,
 			"enableExpr": null,
 			"val": "''24'  '25'  '26'  '27'  '28'  '29'  '30''"
 		},
@@ -206,7 +225,7 @@
 			"default": "",
 			"enable": true,
 			"startSection": false,
-			"readOnly": false,
+			"readOnly": true,
 			"enableExpr": null,
 			"val": "''31'  '01'  '02'  '03'  '04'  '05'  '06''"
 		}
@@ -325,6 +344,24 @@
 			"clampMax": false,
 			"val": 0.20000000298023224
 		},
+		"Tablecolor": {
+			"name": "Tablecolor",
+			"label": "Table Color",
+			"page": "Appearance",
+			"style": "RGB",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 0.25
+		},
 		"Textcolor": {
 			"name": "Textcolor",
 			"label": "Text Color",
@@ -427,8 +464,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3458.0,
-				521.0
+				3362.0,
+				525.0
 			]
 		},
 		"Showpanel": {
