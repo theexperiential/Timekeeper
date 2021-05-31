@@ -98,7 +98,7 @@
 			"normMax": 12.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 5
+			"val": 2
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -117,7 +117,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 6
+			"val": 2
 		},
 		"Selectedday": {
 			"name": "Selectedday",
@@ -155,7 +155,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0
+			"val": 2
 		},
 		"Week1": {
 			"name": "Week1",
@@ -167,7 +167,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''26'  '27'  '28'  '29'  '30'  '01'  '02''"
+			"val": "''01'  '02'  '03'  '04'  '05'  '06'  '07''"
 		},
 		"Week2": {
 			"name": "Week2",
@@ -179,7 +179,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''03'  '04'  '05'  '06'  '07'  '08'  '09''"
+			"val": "''08'  '09'  '10'  '11'  '12'  '13'  '14''"
 		},
 		"Week3": {
 			"name": "Week3",
@@ -191,7 +191,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''10'  '11'  '12'  '13'  '14'  '15'  '16''"
+			"val": "''15'  '16'  '17'  '18'  '19'  '20'  '21''"
 		},
 		"Week4": {
 			"name": "Week4",
@@ -203,7 +203,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''17'  '18'  '19'  '20'  '21'  '22'  '23''"
+			"val": "''22'  '23'  '24'  '25'  '26'  '27'  '28''"
 		},
 		"Week5": {
 			"name": "Week5",
@@ -227,7 +227,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''31'  '01'  '02'  '03'  '04'  '05'  '06''"
+			"val": ""
 		}
 	},
 	"Time": {
@@ -464,8 +464,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3362.0,
-				525.0
+				3386.0,
+				557.0
 			]
 		},
 		"Showpanel": {
