@@ -98,7 +98,7 @@
 			"normMax": 12.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2
+			"val": 6
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -117,7 +117,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2
+			"val": 1
 		},
 		"Selectedday": {
 			"name": "Selectedday",
@@ -136,7 +136,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 31
+			"val": 1
 		},
 		"Selecteddayindex": {
 			"name": "Selecteddayindex",
@@ -155,7 +155,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2
+			"val": 1
 		},
 		"Week1": {
 			"name": "Week1",
@@ -167,7 +167,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''01'  '02'  '03'  '04'  '05'  '06'  '07''"
+			"val": "''31'  '01'  '02'  '03'  '04'  '05'  '06''"
 		},
 		"Week2": {
 			"name": "Week2",
@@ -179,7 +179,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''08'  '09'  '10'  '11'  '12'  '13'  '14''"
+			"val": "''07'  '08'  '09'  '10'  '11'  '12'  '13''"
 		},
 		"Week3": {
 			"name": "Week3",
@@ -191,7 +191,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''15'  '16'  '17'  '18'  '19'  '20'  '21''"
+			"val": "''14'  '15'  '16'  '17'  '18'  '19'  '20''"
 		},
 		"Week4": {
 			"name": "Week4",
@@ -203,7 +203,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''22'  '23'  '24'  '25'  '26'  '27'  '28''"
+			"val": "''21'  '22'  '23'  '24'  '25'  '26'  '27''"
 		},
 		"Week5": {
 			"name": "Week5",
@@ -215,7 +215,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''24'  '25'  '26'  '27'  '28'  '29'  '30''"
+			"val": "''28'  '29'  '30'  '01'  '02'  '03'  '04''"
 		},
 		"Week6": {
 			"name": "Week6",
@@ -464,8 +464,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3386.0,
-				557.0
+				3433.0,
+				572.0
 			]
 		},
 		"Showpanel": {
