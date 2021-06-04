@@ -98,26 +98,7 @@
 			"normMax": 12.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 6
-		},
-		"Selectedweek": {
-			"name": "Selectedweek",
-			"label": "Selected Week",
-			"page": "Calendar",
-			"style": "Int",
-			"size": 1,
-			"default": 0,
-			"enable": true,
-			"startSection": false,
-			"readOnly": false,
-			"enableExpr": null,
-			"min": 0.0,
-			"max": 1.0,
-			"normMin": 1.0,
-			"normMax": 6.0,
-			"clampMin": false,
-			"clampMax": false,
-			"val": 1
+			"val": 2
 		},
 		"Selectedday": {
 			"name": "Selectedday",
@@ -136,7 +117,26 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1
+			"val": 24
+		},
+		"Selectedweek": {
+			"name": "Selectedweek",
+			"label": "Selected Week",
+			"page": "Calendar",
+			"style": "Int",
+			"size": 1,
+			"default": 0,
+			"enable": true,
+			"startSection": true,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 1.0,
+			"normMax": 6.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 4
 		},
 		"Selecteddayindex": {
 			"name": "Selecteddayindex",
@@ -155,7 +155,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1
+			"val": 2
 		},
 		"Week1": {
 			"name": "Week1",
@@ -164,10 +164,10 @@
 			"style": "Str",
 			"default": "",
 			"enable": true,
-			"startSection": false,
+			"startSection": true,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''31'  '01'  '02'  '03'  '04'  '05'  '06''"
+			"val": "''01'  '02'  '03'  '04'  '05'  '06'  '07''"
 		},
 		"Week2": {
 			"name": "Week2",
@@ -179,7 +179,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''07'  '08'  '09'  '10'  '11'  '12'  '13''"
+			"val": "''08'  '09'  '10'  '11'  '12'  '13'  '14''"
 		},
 		"Week3": {
 			"name": "Week3",
@@ -191,7 +191,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''14'  '15'  '16'  '17'  '18'  '19'  '20''"
+			"val": "''15'  '16'  '17'  '18'  '19'  '20'  '21''"
 		},
 		"Week4": {
 			"name": "Week4",
@@ -203,7 +203,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''21'  '22'  '23'  '24'  '25'  '26'  '27''"
+			"val": "''22'  '23'  '24'  '25'  '26'  '27'  '28''"
 		},
 		"Week5": {
 			"name": "Week5",
@@ -215,7 +215,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''28'  '29'  '30'  '01'  '02'  '03'  '04''"
+			"val": ""
 		},
 		"Week6": {
 			"name": "Week6",
@@ -228,6 +228,18 @@
 			"readOnly": true,
 			"enableExpr": null,
 			"val": ""
+		},
+		"Loading": {
+			"name": "Loading",
+			"label": "Loading",
+			"page": "Calendar",
+			"style": "Toggle",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": true,
+			"enableExpr": null,
+			"val": false
 		}
 	},
 	"Time": {
@@ -464,8 +476,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3433.0,
-				572.0
+				3304.0,
+				481.0
 			]
 		},
 		"Showpanel": {
