@@ -98,7 +98,7 @@
 			"normMax": 12.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2
+			"val": 6
 		},
 		"Selectedday": {
 			"name": "Selectedday",
@@ -117,7 +117,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 24
+			"val": 5
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -136,7 +136,26 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 4
+			"val": 1
+		},
+		"Numweeksinmonth": {
+			"name": "Numweeksinmonth",
+			"label": "Num Weeks in Month",
+			"page": "Calendar",
+			"style": "Int",
+			"size": 1,
+			"default": 0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": true,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 5
 		},
 		"Selecteddayindex": {
 			"name": "Selecteddayindex",
@@ -155,7 +174,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2
+			"val": 5
 		},
 		"Week1": {
 			"name": "Week1",
@@ -167,7 +186,7 @@
 			"startSection": true,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''01'  '02'  '03'  '04'  '05'  '06'  '07''"
+			"val": "''31'  '01'  '02'  '03'  '04'  '05'  '06''"
 		},
 		"Week2": {
 			"name": "Week2",
@@ -179,7 +198,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''08'  '09'  '10'  '11'  '12'  '13'  '14''"
+			"val": "''07'  '08'  '09'  '10'  '11'  '12'  '13''"
 		},
 		"Week3": {
 			"name": "Week3",
@@ -191,7 +210,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''15'  '16'  '17'  '18'  '19'  '20'  '21''"
+			"val": "''14'  '15'  '16'  '17'  '18'  '19'  '20''"
 		},
 		"Week4": {
 			"name": "Week4",
@@ -203,7 +222,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "''22'  '23'  '24'  '25'  '26'  '27'  '28''"
+			"val": "''21'  '22'  '23'  '24'  '25'  '26'  '27''"
 		},
 		"Week5": {
 			"name": "Week5",
@@ -215,7 +234,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": ""
+			"val": "''28'  '29'  '30'  '01'  '02'  '03'  '04''"
 		},
 		"Week6": {
 			"name": "Week6",
@@ -476,8 +495,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3304.0,
-				481.0
+				3424.0,
+				221.0
 			]
 		},
 		"Showpanel": {
@@ -542,6 +561,18 @@
 			"readOnly": true,
 			"enableExpr": null,
 			"val": "rosco@tec.design"
+		},
+		"Website": {
+			"name": "Website",
+			"label": "Website",
+			"page": "About",
+			"style": "Pulse",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": 0
 		}
 	}
 }
