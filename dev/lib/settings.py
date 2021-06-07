@@ -117,7 +117,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 5
+			"val": 6
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -174,7 +174,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 5
+			"val": 6
 		},
 		"Week1": {
 			"name": "Week1",
@@ -495,8 +495,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3424.0,
-				221.0
+				3453.0,
+				339.0
 			]
 		},
 		"Showpanel": {
@@ -522,7 +522,7 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"menuSource": "op.UI.op('panel/folderTabs').par.Value0",
-			"val": "Time"
+			"val": "Manage"
 		}
 	},
 	"About": {
