@@ -129,7 +129,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 7
+			"val": 8
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -186,7 +186,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0
+			"val": 1
 		},
 		"Week1": {
 			"name": "Week1",
