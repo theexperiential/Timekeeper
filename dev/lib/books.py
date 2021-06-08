@@ -4,11 +4,23 @@
 			"Members": [
 				{
 					"name": "Anita",
-					"test": ""
+					"rate": "50"
+				},
+				{
+					"name": "Pan Panda",
+					"rate": "20"
 				},
 				{
 					"name": "Dylan",
-					"test": ""
+					"rate": "100"
+				},
+				{
+					"name": "Mr Tomato",
+					"rate": ""
+				},
+				{
+					"name": "Pan Pomidor",
+					"rate": ""
 				}
 			]
 		},

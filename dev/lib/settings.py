@@ -12,6 +12,18 @@
 			"enableExpr": null,
 			"val": "TEC"
 		},
+		"Defaultdescription": {
+			"name": "Defaultdescription",
+			"label": "Default Description",
+			"page": "General",
+			"style": "Str",
+			"default": "",
+			"enable": true,
+			"startSection": true,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": "What I'm focusing on."
+		},
 		"Sync": {
 			"name": "Sync",
 			"label": "Sync",
@@ -117,7 +129,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 6
+			"val": 7
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -136,7 +148,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1
+			"val": 2
 		},
 		"Numweeksinmonth": {
 			"name": "Numweeksinmonth",
@@ -174,7 +186,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 6
+			"val": 0
 		},
 		"Week1": {
 			"name": "Week1",
@@ -284,7 +296,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "00:00:05.00"
+			"val": "00:00:06.00"
 		},
 		"Pomodorosperset": {
 			"name": "Pomodorosperset",
@@ -375,6 +387,24 @@
 			"clampMax": false,
 			"val": 0.20000000298023224
 		},
+		"Smalltabcolor": {
+			"name": "Smalltabcolor",
+			"label": "Small Tab Color",
+			"page": "Appearance",
+			"style": "RGB",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 0.30000001192092896
+		},
 		"Tablecolor": {
 			"name": "Tablecolor",
 			"label": "Table Color",
@@ -391,7 +421,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.25
+			"val": 0.3
 		},
 		"Textcolor": {
 			"name": "Textcolor",
@@ -495,8 +525,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3453.0,
-				339.0
+				3425.0,
+				536.0
 			]
 		},
 		"Showpanel": {
@@ -522,7 +552,7 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"menuSource": "op.UI.op('panel/folderTabs').par.Value0",
-			"val": "Manage"
+			"val": "Time"
 		}
 	},
 	"About": {
