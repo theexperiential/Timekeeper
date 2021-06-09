@@ -15,7 +15,7 @@
 					"rate": "100"
 				},
 				{
-					"name": "Mr Tomato",
+					"name": "Name",
 					"rate": ""
 				},
 				{
@@ -68,13 +68,13 @@
 		{
 			"Tasks": [
 				{
-					"name": "Dome"
-				},
-				{
-					"name": "Network Wall"
+					"name": "Writing"
 				},
 				{
 					"name": "Software Engineering"
+				},
+				{
+					"name": "Drawing"
 				}
 			]
 		}

@@ -525,8 +525,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3422.0,
-				560.0
+				3427.0,
+				572.0
 			]
 		},
 		"Showpanel": {
@@ -539,7 +539,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": true
+			"val": false
 		},
 		"Currentpanel": {
 			"name": "Currentpanel",
