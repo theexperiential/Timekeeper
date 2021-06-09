@@ -25,16 +25,28 @@
 			"id": "9757"
 		},
 		{
-			"time": "2021-06-08 15:07 -0700",
+			"time": "2021-06-08 16:00 -0700",
 			"proj_id": "5186",
 			"task": "Dome",
-			"descr": "",
+			"descr": "something goes here",
 			"pomo_id": "886",
 			"pomos": "0.43",
 			"short_rest": "0",
 			"long_rest": "0",
-			"hours": 0.0,
-			"id": "8964"
+			"hours": "0.1",
+			"id": "8911"
+		},
+		{
+			"time": "2021-06-08 18:19 -0700",
+			"proj_id": "5186",
+			"task": "Dome",
+			"descr": "",
+			"pomo_id": "886",
+			"pomos": "0.71",
+			"short_rest": "0",
+			"long_rest": "0",
+			"hours": "0.0",
+			"id": "5080"
 		}
 	]
 }

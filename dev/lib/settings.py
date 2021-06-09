@@ -525,8 +525,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3425.0,
-				536.0
+				3422.0,
+				560.0
 			]
 		},
 		"Showpanel": {
