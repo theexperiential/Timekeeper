@@ -129,7 +129,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 8
+			"val": 9
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -186,7 +186,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1
+			"val": 2
 		},
 		"Week1": {
 			"name": "Week1",
@@ -328,6 +328,44 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"val": "00:00:10.00"
+		},
+		"Totalhours": {
+			"name": "Totalhours",
+			"label": "Total Hours",
+			"page": "Time",
+			"style": "Float",
+			"size": 1,
+			"default": 0.0,
+			"enable": true,
+			"startSection": true,
+			"readOnly": true,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 4.0
+		},
+		"Totalearnings": {
+			"name": "Totalearnings",
+			"label": "Total Earnings",
+			"page": "Time",
+			"style": "Float",
+			"size": 1,
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": true,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 0.0
 		}
 	},
 	"Appearance": {
@@ -367,11 +405,11 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.135
+			"val": 0.08699999749660492
 		},
-		"Tabcolor": {
-			"name": "Tabcolor",
-			"label": "Tab Color",
+		"Panelbgcolor": {
+			"name": "Panelbgcolor",
+			"label": "Panel BG Color",
 			"page": "Appearance",
 			"style": "RGB",
 			"default": 0.0,
@@ -391,7 +429,7 @@
 			"name": "Smalltabcolor",
 			"label": "Small Tab Color",
 			"page": "Appearance",
-			"style": "RGB",
+			"style": "RGBA",
 			"default": 0.0,
 			"enable": true,
 			"startSection": false,
@@ -403,7 +441,12 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.30000001192092896
+			"val": [
+				0.2540000081062317,
+				0.2540000081062317,
+				0.2540000081062317,
+				1.0
+			]
 		},
 		"Tablecolor": {
 			"name": "Tablecolor",
@@ -421,11 +464,11 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.3
+			"val": 0.3109999895095825
 		},
-		"Textcolor": {
-			"name": "Textcolor",
-			"label": "Text Color",
+		"Selectedtextcolor": {
+			"name": "Selectedtextcolor",
+			"label": "Selected Text Color",
 			"page": "Appearance",
 			"style": "RGBA",
 			"default": 0.0,
@@ -439,13 +482,13 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.0
+			"val": 1.0
 		},
-		"Accentcolor": {
-			"name": "Accentcolor",
-			"label": "Accent Color",
+		"Unselectedtextcolor": {
+			"name": "Unselectedtextcolor",
+			"label": "Unselected Text Color",
 			"page": "Appearance",
-			"style": "RGB",
+			"style": "RGBA",
 			"default": 0.0,
 			"enable": true,
 			"startSection": false,
@@ -458,30 +501,9 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				0.8,
-				0.106667,
-				0.0
-			]
-		},
-		"Restcolor": {
-			"name": "Restcolor",
-			"label": "Rest Color",
-			"page": "Appearance",
-			"style": "RGB",
-			"default": 0.0,
-			"enable": true,
-			"startSection": false,
-			"readOnly": false,
-			"enableExpr": null,
-			"min": 0.0,
-			"max": 1.0,
-			"normMin": 0.0,
-			"normMax": 1.0,
-			"clampMin": false,
-			"clampMax": false,
-			"val": [
-				0.0,
-				0.8,
+				0.5,
+				0.5,
+				0.5,
 				1.0
 			]
 		},
@@ -508,6 +530,50 @@
 				1.0
 			]
 		},
+		"Restcolor": {
+			"name": "Restcolor",
+			"label": "Rest Color",
+			"page": "Appearance",
+			"style": "RGB",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": [
+				0.0,
+				0.8,
+				1.0
+			]
+		},
+		"Accentcolor": {
+			"name": "Accentcolor",
+			"label": "Accent Color",
+			"page": "Appearance",
+			"style": "RGB",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": [
+				0.8,
+				0.106667,
+				0.0
+			]
+		},
 		"Winoffset": {
 			"name": "Winoffset",
 			"label": "Window Offset",
@@ -525,8 +591,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3427.0,
-				572.0
+				3414.0,
+				544.0
 			]
 		},
 		"Showpanel": {
@@ -539,7 +605,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": false
+			"val": true
 		},
 		"Currentpanel": {
 			"name": "Currentpanel",
