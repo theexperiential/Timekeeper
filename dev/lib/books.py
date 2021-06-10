@@ -15,10 +15,6 @@
 					"rate": "100"
 				},
 				{
-					"name": "Name",
-					"rate": ""
-				},
-				{
 					"name": "Pan Pomidor",
 					"rate": ""
 				}
@@ -62,6 +58,9 @@
 				},
 				{
 					"name": "PPP"
+				},
+				{
+					"name": "Hello World"
 				}
 			]
 		},

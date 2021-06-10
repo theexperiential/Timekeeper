@@ -346,7 +346,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 4.0
+			"val": 7.0
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -591,8 +591,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3414.0,
-				544.0
+				3210.0,
+				621.0
 			]
 		},
 		"Showpanel": {
@@ -618,7 +618,7 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"menuSource": "op.UI.op('panel/folderTabs').par.Value0",
-			"val": "Time"
+			"val": "Manage"
 		}
 	},
 	"About": {

@@ -129,7 +129,7 @@
 			"pomos": "0.43",
 			"short_rest": "0",
 			"long_rest": "0",
-			"hours": "0.0",
+			"hours": "3",
 			"id": "5544"
 		},
 		{
