@@ -394,7 +394,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.5
+			"val": 11.0
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -413,7 +413,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 50.0
+			"val": 1120.0
 		}
 	},
 	"Appearance": {
@@ -657,8 +657,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				996.0,
-				1.0
+				3371.0,
+				615.0
 			]
 		},
 		"Showpanel": {
@@ -671,7 +671,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": false
+			"val": true
 		},
 		"Currentpanel": {
 			"name": "Currentpanel",

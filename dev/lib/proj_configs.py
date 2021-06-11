@@ -197,7 +197,7 @@
 			"id": "9785"
 		},
 		{
-			"member": "John Doughf",
+			"member": "John Doughnut",
 			"client": "TEC",
 			"project": "Galactica",
 			"rate": "45",
@@ -207,7 +207,7 @@
 			"member": "Anita",
 			"client": "TEC",
 			"project": "Galactica",
-			"rate": "52",
+			"rate": "120",
 			"id": "616"
 		},
 		{
@@ -221,7 +221,7 @@
 			"member": "Anita",
 			"client": "TEC",
 			"project": "proj2",
-			"rate": "52",
+			"rate": "120",
 			"id": "1468"
 		},
 		{
@@ -258,6 +258,27 @@
 			"project": "proj2",
 			"rate": "30",
 			"id": "3684"
+		},
+		{
+			"member": "Pan Pomidor",
+			"client": "Weyland",
+			"project": "proj2",
+			"rate": "100",
+			"id": "9441"
+		},
+		{
+			"member": "John Doughnut",
+			"client": "TEC",
+			"project": "Galactica",
+			"rate": "",
+			"id": "777"
+		},
+		{
+			"member": "John Doughnutty",
+			"client": "TEC",
+			"project": "Galactica",
+			"rate": "",
+			"id": "8359"
 		}
 	]
 }

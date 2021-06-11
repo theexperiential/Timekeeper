@@ -4,7 +4,7 @@
 			"Members": [
 				{
 					"name": "Anita",
-					"rate": "52"
+					"rate": "120"
 				},
 				{
 					"name": "Pan Panda",
@@ -20,11 +20,11 @@
 				},
 				{
 					"name": "John Doughnutty",
-					"rate": "100"
+					"rate": ""
 				},
 				{
-					"name": "John Doughf",
-					"rate": "45"
+					"name": "John Doughnut",
+					"rate": ""
 				}
 			]
 		},
