@@ -189,7 +189,7 @@
 			"pomos": "1",
 			"short_rest": "0.17",
 			"long_rest": "0",
-			"hours": "0.0",
+			"hours": ".02",
 			"id": "7818"
 		},
 		{
@@ -201,7 +201,7 @@
 			"pomos": "0",
 			"short_rest": "0",
 			"long_rest": "0",
-			"hours": "2",
+			"hours": "2.0",
 			"id": "7492"
 		},
 		{
@@ -213,8 +213,20 @@
 			"pomos": "0",
 			"short_rest": "0",
 			"long_rest": "0",
-			"hours": "0.0",
+			"hours": "1.25",
 			"id": "2748"
+		},
+		{
+			"time": "2021-06-11 00:07 -0700",
+			"proj_id": "8587",
+			"task": "Writing",
+			"descr": "easy does it...",
+			"pomo_id": "886",
+			"pomos": "0.57",
+			"short_rest": "0",
+			"long_rest": "0",
+			"hours": "0.5",
+			"id": "45"
 		}
 	]
 }

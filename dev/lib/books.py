@@ -37,7 +37,7 @@
 					"name": "ha"
 				},
 				{
-					"name": "Downstreama"
+					"name": "Downstream"
 				},
 				{
 					"name": "Weyland"

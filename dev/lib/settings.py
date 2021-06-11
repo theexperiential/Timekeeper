@@ -83,6 +83,42 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"val": "lib/timesheets.py"
+		},
+		"Utilities": {
+			"name": "Utilities",
+			"label": "Utilities",
+			"page": "General",
+			"style": "Header",
+			"default": "",
+			"enable": true,
+			"startSection": true,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": ""
+		},
+		"Cleanlibrary": {
+			"name": "Cleanlibrary",
+			"label": "Clean Library",
+			"page": "General",
+			"style": "Pulse",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": 0
+		},
+		"Resetlibrary": {
+			"name": "Resetlibrary",
+			"label": "Reset Library",
+			"page": "General",
+			"style": "Pulse",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": 0
 		}
 	},
 	"Calendar": {
@@ -141,7 +177,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 10
+			"val": 11
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -198,7 +234,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 3
+			"val": 4
 		},
 		"Week1": {
 			"name": "Week1",
@@ -358,7 +394,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 5.0
+			"val": 0.5
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -377,7 +413,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.0
+			"val": 50.0
 		}
 	},
 	"Appearance": {
@@ -621,8 +657,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3310.0,
-				578.0
+				996.0,
+				1.0
 			]
 		},
 		"Showpanel": {

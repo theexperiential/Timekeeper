@@ -191,7 +191,7 @@
 		},
 		{
 			"member": "Anita",
-			"client": "Downstreama",
+			"client": "Downstream",
 			"project": "Galactica",
 			"rate": "56",
 			"id": "9785"
@@ -216,6 +216,48 @@
 			"project": "Galactica",
 			"rate": "45",
 			"id": "1843"
+		},
+		{
+			"member": "Anita",
+			"client": "TEC",
+			"project": "proj2",
+			"rate": "52",
+			"id": "1468"
+		},
+		{
+			"member": "Pan Pomidor",
+			"client": "TEC",
+			"project": "proj2",
+			"rate": "52",
+			"id": "3750"
+		},
+		{
+			"member": "Pan Pomidor",
+			"client": "Downstream",
+			"project": "proj2",
+			"rate": "52",
+			"id": "4129"
+		},
+		{
+			"member": "Pan Pomidor",
+			"client": "Downstream",
+			"project": "proj2",
+			"rate": "100",
+			"id": "8587"
+		},
+		{
+			"member": "Pan Pomidor",
+			"client": "Downstream",
+			"project": "proj2",
+			"rate": "20",
+			"id": "1467"
+		},
+		{
+			"member": "Pan Pomidor",
+			"client": "Downstream",
+			"project": "proj2",
+			"rate": "30",
+			"id": "3684"
 		}
 	]
 }
