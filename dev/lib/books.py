@@ -4,7 +4,7 @@
 			"Members": [
 				{
 					"name": "Anita",
-					"rate": "50"
+					"rate": "52"
 				},
 				{
 					"name": "Pan Panda",
@@ -16,7 +16,15 @@
 				},
 				{
 					"name": "Pan Pomidor",
-					"rate": ""
+					"rate": "30"
+				},
+				{
+					"name": "John Doughnutty",
+					"rate": "100"
+				},
+				{
+					"name": "John Doughf",
+					"rate": "45"
 				}
 			]
 		},
@@ -29,10 +37,10 @@
 					"name": "ha"
 				},
 				{
-					"name": "Downstream"
+					"name": "Downstreama"
 				},
 				{
-					"name": "Weyland Industries"
+					"name": "Weyland"
 				}
 			]
 		},
@@ -45,7 +53,7 @@
 					"name": "TMO"
 				},
 				{
-					"name": "Weyland Industries"
+					"name": "Galactica"
 				},
 				{
 					"name": "gsdf"

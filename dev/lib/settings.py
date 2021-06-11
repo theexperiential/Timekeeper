@@ -1,8 +1,8 @@
 {
 	"General": {
-		"Companyname": {
-			"name": "Companyname",
-			"label": "Company Name",
+		"Name": {
+			"name": "Name",
+			"label": "Name",
 			"page": "General",
 			"style": "Str",
 			"default": "",
@@ -11,6 +11,18 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"val": "TEC"
+		},
+		"Individualorcompany": {
+			"name": "Individualorcompany",
+			"label": "Individual or Company",
+			"page": "General",
+			"style": "Toggle",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": true
 		},
 		"Defaultdescription": {
 			"name": "Defaultdescription",
@@ -129,7 +141,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 9
+			"val": 10
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -186,7 +198,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2
+			"val": 3
 		},
 		"Week1": {
 			"name": "Week1",
@@ -346,7 +358,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 7.0
+			"val": 5.0
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -448,9 +460,9 @@
 				1.0
 			]
 		},
-		"Tablecolor": {
-			"name": "Tablecolor",
-			"label": "Table Color",
+		"Tablebgcolor": {
+			"name": "Tablebgcolor",
+			"label": "Table BG Color",
 			"page": "Appearance",
 			"style": "RGB",
 			"default": 0.0,
@@ -465,6 +477,24 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": 0.3109999895095825
+		},
+		"Listbgcolor": {
+			"name": "Listbgcolor",
+			"label": "List BG Color",
+			"page": "Appearance",
+			"style": "RGB",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 0.25
 		},
 		"Selectedtextcolor": {
 			"name": "Selectedtextcolor",
@@ -591,8 +621,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3210.0,
-				621.0
+				3310.0,
+				578.0
 			]
 		},
 		"Showpanel": {
@@ -605,7 +635,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": true
+			"val": false
 		},
 		"Currentpanel": {
 			"name": "Currentpanel",
@@ -618,7 +648,7 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"menuSource": "op.UI.op('panel/folderTabs').par.Value0",
-			"val": "Manage"
+			"val": "Time"
 		}
 	},
 	"About": {
