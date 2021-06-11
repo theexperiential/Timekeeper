@@ -36,6 +36,25 @@
 			"enableExpr": null,
 			"val": "What I'm focusing on."
 		},
+		"Defaulthourlyrate": {
+			"name": "Defaulthourlyrate",
+			"label": "Default Hourly Rate",
+			"page": "General",
+			"style": "Float",
+			"size": 1,
+			"default": 50.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 10.0,
+			"normMax": 500.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 50.0
+		},
 		"Sync": {
 			"name": "Sync",
 			"label": "Sync",
@@ -332,7 +351,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "00:00:07.00"
+			"val": "00:25:00.00"
 		},
 		"Shortrestlength": {
 			"name": "Shortrestlength",
@@ -344,7 +363,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "00:00:06.00"
+			"val": "00:05:00.00"
 		},
 		"Pomodorosperset": {
 			"name": "Pomodorosperset",
@@ -375,7 +394,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "00:00:10.00"
+			"val": "00:15:00.00"
 		},
 		"Totalhours": {
 			"name": "Totalhours",
@@ -394,7 +413,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 11.0
+			"val": 2.0
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -413,7 +432,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1120.0
+			"val": 100.0
 		}
 	},
 	"Appearance": {
@@ -657,8 +676,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3371.0,
-				615.0
+				3270.0,
+				601.0
 			]
 		},
 		"Showpanel": {

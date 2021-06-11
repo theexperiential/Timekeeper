@@ -1,87 +1,31 @@
 {
 	"Books": [
 		{
-			"Members": [
+			"table_members": [
 				{
-					"name": "Anita",
-					"rate": "120"
-				},
-				{
-					"name": "Pan Panda",
-					"rate": "20"
-				},
-				{
-					"name": "Dylan",
-					"rate": "100"
-				},
-				{
-					"name": "Pan Pomidor",
-					"rate": "30"
-				},
-				{
-					"name": "John Doughnutty",
-					"rate": ""
-				},
-				{
-					"name": "John Doughnut",
-					"rate": ""
+					"name": "John Dough",
+					"rate": "50.0"
 				}
 			]
 		},
 		{
-			"Clients": [
+			"table_clients": [
 				{
-					"name": "TEC"
-				},
-				{
-					"name": "ha"
-				},
-				{
-					"name": "Downstream"
-				},
-				{
-					"name": "Weyland"
+					"name": "Weyland-Yutani"
 				}
 			]
 		},
 		{
-			"Projects": [
-				{
-					"name": "proj2"
-				},
-				{
-					"name": "TMO"
-				},
-				{
-					"name": "Galactica"
-				},
-				{
-					"name": "gsdf"
-				},
-				{
-					"name": "proj3"
-				},
-				{
-					"name": "Google P57"
-				},
-				{
-					"name": "PPP"
-				},
+			"table_projects": [
 				{
 					"name": "Hello World"
 				}
 			]
 		},
 		{
-			"Tasks": [
+			"table_tasks": [
 				{
-					"name": "Writing"
-				},
-				{
-					"name": "Software Engineering"
-				},
-				{
-					"name": "Drawing"
+					"name": "TouchDesigner Dev"
 				}
 			]
 		}
