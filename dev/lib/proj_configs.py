@@ -15,20 +15,6 @@
 			"id": "8083"
 		},
 		{
-			"member": "Jane",
-			"client": "Butch",
-			"project": "Nexus Series",
-			"rate": "55.0",
-			"id": "9051"
-		},
-		{
-			"member": "John Dough",
-			"client": "Weyland-Yutani",
-			"project": "Nexus Series",
-			"rate": "55.0",
-			"id": "4200"
-		},
-		{
 			"member": "John Dough",
 			"client": "Weyland-Yutani",
 			"project": "Hello World",
