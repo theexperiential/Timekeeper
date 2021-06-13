@@ -10,7 +10,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "TEC"
+			"val": "Jane"
 		},
 		"Individualorcompany": {
 			"name": "Individualorcompany",
@@ -22,7 +22,55 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": true
+			"val": false
+		},
+		"Member": {
+			"name": "Member",
+			"label": "Member",
+			"page": "General",
+			"style": "Str",
+			"default": "",
+			"enable": true,
+			"startSection": false,
+			"readOnly": true,
+			"enableExpr": null,
+			"val": ""
+		},
+		"Client": {
+			"name": "Client",
+			"label": "Client",
+			"page": "General",
+			"style": "Str",
+			"default": "",
+			"enable": true,
+			"startSection": false,
+			"readOnly": true,
+			"enableExpr": null,
+			"val": "Weyland-Yutani"
+		},
+		"Project": {
+			"name": "Project",
+			"label": "Project",
+			"page": "General",
+			"style": "Str",
+			"default": "",
+			"enable": true,
+			"startSection": false,
+			"readOnly": true,
+			"enableExpr": null,
+			"val": "Hobbs"
+		},
+		"Task": {
+			"name": "Task",
+			"label": "Task",
+			"page": "General",
+			"style": "Str",
+			"default": "",
+			"enable": true,
+			"startSection": false,
+			"readOnly": true,
+			"enableExpr": null,
+			"val": "TouchDesigner Dev"
 		},
 		"Defaultdescription": {
 			"name": "Defaultdescription",
@@ -196,7 +244,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 11
+			"val": 12
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -253,7 +301,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 4
+			"val": 5
 		},
 		"Week1": {
 			"name": "Week1",
@@ -413,7 +461,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2.0
+			"val": 4.65
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -432,7 +480,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 100.0
+			"val": 232.5
 		}
 	},
 	"Appearance": {
@@ -676,8 +724,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3381.0,
-				235.0
+				3637.0,
+				588.0
 			]
 		},
 		"Showpanel": {
