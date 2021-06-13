@@ -59,6 +59,30 @@
 			"long_rest": "0",
 			"hours": "1",
 			"id": "8811"
+		},
+		{
+			"time": "2021-06-13 13:56 -0700",
+			"proj_id": "2020",
+			"task": "TouchDesigner Dev",
+			"descr": "calc hours",
+			"pomo_id": "1598",
+			"pomos": "0.4",
+			"short_rest": "0",
+			"long_rest": "0",
+			"hours": "0.17",
+			"id": "7293"
+		},
+		{
+			"time": "2021-06-13 16:00 -0700",
+			"proj_id": "2020",
+			"task": "TouchDesigner Dev",
+			"descr": "calc hours",
+			"pomo_id": "1598",
+			"pomos": "0.0",
+			"short_rest": "0",
+			"long_rest": "0",
+			"hours": "0.0",
+			"id": "3367"
 		}
 	]
 }

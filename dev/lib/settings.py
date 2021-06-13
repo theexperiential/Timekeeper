@@ -461,7 +461,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1.0
+			"val": 3.17
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -480,7 +480,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 55.0
+			"val": 163.5
 		}
 	},
 	"Appearance": {
@@ -508,7 +508,7 @@
 			"name": "Menubarbgcolor",
 			"label": "Menubar BG Color",
 			"page": "Appearance",
-			"style": "RGB",
+			"style": "RGBA",
 			"default": 0.0,
 			"enable": true,
 			"startSection": true,
@@ -520,13 +520,18 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.08699999749660492
+			"val": [
+				0.087,
+				0.087,
+				0.087,
+				1.0
+			]
 		},
 		"Panelbgcolor": {
 			"name": "Panelbgcolor",
 			"label": "Panel BG Color",
 			"page": "Appearance",
-			"style": "RGB",
+			"style": "RGBA",
 			"default": 0.0,
 			"enable": true,
 			"startSection": false,
@@ -538,7 +543,53 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.20000000298023224
+			"val": [
+				0.2,
+				0.2,
+				0.2,
+				1.0
+			]
+		},
+		"Tablebgcolor": {
+			"name": "Tablebgcolor",
+			"label": "Table BG Color",
+			"page": "Appearance",
+			"style": "RGBA",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": [
+				0.3,
+				0.3,
+				0.3,
+				1.0
+			]
+		},
+		"Listbgcolor": {
+			"name": "Listbgcolor",
+			"label": "List BG Color",
+			"page": "Appearance",
+			"style": "RGBA",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": 0.25
 		},
 		"Smalltabcolor": {
 			"name": "Smalltabcolor",
@@ -557,47 +608,11 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				0.2540000081062317,
-				0.2540000081062317,
-				0.2540000081062317,
+				0.25,
+				0.25,
+				0.25,
 				1.0
 			]
-		},
-		"Tablebgcolor": {
-			"name": "Tablebgcolor",
-			"label": "Table BG Color",
-			"page": "Appearance",
-			"style": "RGB",
-			"default": 0.0,
-			"enable": true,
-			"startSection": false,
-			"readOnly": false,
-			"enableExpr": null,
-			"min": 0.0,
-			"max": 1.0,
-			"normMin": 0.0,
-			"normMax": 1.0,
-			"clampMin": false,
-			"clampMax": false,
-			"val": 0.3109999895095825
-		},
-		"Listbgcolor": {
-			"name": "Listbgcolor",
-			"label": "List BG Color",
-			"page": "Appearance",
-			"style": "RGB",
-			"default": 0.0,
-			"enable": true,
-			"startSection": false,
-			"readOnly": false,
-			"enableExpr": null,
-			"min": 0.0,
-			"max": 1.0,
-			"normMin": 0.0,
-			"normMax": 1.0,
-			"clampMin": false,
-			"clampMax": false,
-			"val": 0.25
 		},
 		"Selectedtextcolor": {
 			"name": "Selectedtextcolor",
@@ -616,6 +631,29 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": 1.0
+		},
+		"Selectedtextcolorinverse": {
+			"name": "Selectedtextcolorinverse",
+			"label": "Selected Text Color Inverse",
+			"page": "Appearance",
+			"style": "RGBA",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": [
+				0.2,
+				0.2,
+				0.2,
+				1.0
+			]
 		},
 		"Unselectedtextcolor": {
 			"name": "Unselectedtextcolor",
@@ -657,17 +695,63 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				0.714,
-				0.714,
-				0.714,
+				0.75,
+				0.75,
+				0.75,
 				1.0
+			]
+		},
+		"Unselectedbuttoncolor": {
+			"name": "Unselectedbuttoncolor",
+			"label": "Unselected Button Color",
+			"page": "Appearance",
+			"style": "RGBA",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": [
+				0.35,
+				0.35,
+				0.35,
+				1.0
+			]
+		},
+		"Selectedrowcolor": {
+			"name": "Selectedrowcolor",
+			"label": "Selected Row Color",
+			"page": "Appearance",
+			"style": "RGBA",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": [
+				0.0,
+				0.0,
+				0.0,
+				0.5
 			]
 		},
 		"Restcolor": {
 			"name": "Restcolor",
 			"label": "Rest Color",
 			"page": "Appearance",
-			"style": "RGB",
+			"style": "RGBA",
 			"default": 0.0,
 			"enable": true,
 			"startSection": false,
@@ -682,6 +766,7 @@
 			"val": [
 				0.0,
 				0.8,
+				1.0,
 				1.0
 			]
 		},
@@ -689,7 +774,7 @@
 			"name": "Accentcolor",
 			"label": "Accent Color",
 			"page": "Appearance",
-			"style": "RGB",
+			"style": "RGBA",
 			"default": 0.0,
 			"enable": true,
 			"startSection": false,
@@ -702,9 +787,10 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				0.8,
-				0.106667,
-				0.0
+				1.0,
+				0.14,
+				0.14,
+				1.0
 			]
 		},
 		"Winoffset": {
@@ -724,8 +810,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3458.0,
-				586.0
+				1039.0,
+				-1.0
 			]
 		},
 		"Showpanel": {
@@ -738,7 +824,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": true
+			"val": false
 		},
 		"Currentpanel": {
 			"name": "Currentpanel",
