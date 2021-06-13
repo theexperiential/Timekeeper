@@ -480,7 +480,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 155.0
+			"val": 55.0
 		}
 	},
 	"Appearance": {

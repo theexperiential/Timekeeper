@@ -2,7 +2,7 @@
 
 ## Work smarter, not harder.
 
-![Timekeeper](assets/screenshot1.png)
+![Timekeeper](assets/screenshot1.jpg)
 
 Timekeeper is a lightweight and open source TouchDesigner application that doubles as a time tracker and wellness app. Instead of counting upwards to infinity like most time trackers, it counts down towards short and long rest intervals that are designed to increase your productivity and humanity.
 
