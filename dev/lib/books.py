@@ -28,7 +28,7 @@
 					"name": "Hello World"
 				},
 				{
-					"name": "Hobbs"
+					"name": "Nexus Series"
 				}
 			]
 		},

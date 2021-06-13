@@ -10,21 +10,21 @@
 		{
 			"member": "Jane",
 			"client": "Weyland-Yutani",
-			"project": "Hobbs",
+			"project": "Nexus Series",
 			"rate": "55.0",
 			"id": "8083"
 		},
 		{
 			"member": "Jane",
 			"client": "Butch",
-			"project": "Hobbs",
+			"project": "Nexus Series",
 			"rate": "55.0",
 			"id": "9051"
 		},
 		{
 			"member": "John Dough",
 			"client": "Weyland-Yutani",
-			"project": "Hobbs",
+			"project": "Nexus Series",
 			"rate": "55.0",
 			"id": "4200"
 		},
@@ -38,7 +38,7 @@
 		{
 			"member": "Jane",
 			"client": "Weyland-Yutani",
-			"project": "Hobbs",
+			"project": "Nexus Series",
 			"rate": "50.0",
 			"id": "2395"
 		}

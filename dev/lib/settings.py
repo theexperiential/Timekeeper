@@ -58,7 +58,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "Hobbs"
+			"val": "Hello World"
 		},
 		"Task": {
 			"name": "Task",
@@ -461,7 +461,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 3.0
+			"val": 1.0
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -725,7 +725,7 @@
 			"clampMax": false,
 			"val": [
 				3458.0,
-				585.0
+				586.0
 			]
 		},
 		"Showpanel": {
