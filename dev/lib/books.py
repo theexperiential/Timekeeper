@@ -38,7 +38,7 @@
 					"name": "TouchDesigner Dev"
 				},
 				{
-					"name": "Tisk"
+					"name": "Notch"
 				}
 			]
 		}

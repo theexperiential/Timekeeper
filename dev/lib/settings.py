@@ -10,7 +10,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "Jane"
+			"val": "John Dough"
 		},
 		"Individualorcompany": {
 			"name": "Individualorcompany",
@@ -461,7 +461,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 7.65
+			"val": 3.0
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -480,7 +480,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 395.75
+			"val": 155.0
 		}
 	},
 	"Appearance": {
@@ -724,8 +724,8 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				3487.0,
-				582.0
+				3458.0,
+				585.0
 			]
 		},
 		"Showpanel": {
