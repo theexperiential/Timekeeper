@@ -244,7 +244,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 13
+			"val": 15
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -263,7 +263,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2
+			"val": 3
 		},
 		"Numweeksinmonth": {
 			"name": "Numweeksinmonth",
@@ -301,7 +301,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 6
+			"val": 1
 		},
 		"Week1": {
 			"name": "Week1",
@@ -461,7 +461,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 3.17
+			"val": 2.0
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -480,7 +480,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 163.5
+			"val": 100.0
 		}
 	},
 	"Appearance": {
