@@ -244,7 +244,7 @@
 			"normMax": 31.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 15
+			"val": 16
 		},
 		"Selectedweek": {
 			"name": "Selectedweek",
@@ -301,7 +301,7 @@
 			"normMax": 6.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 1
+			"val": 2
 		},
 		"Week1": {
 			"name": "Week1",
@@ -461,7 +461,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 2.0
+			"val": 9.32
 		},
 		"Totalearnings": {
 			"name": "Totalearnings",
@@ -480,7 +480,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 100.0
+			"val": 466.0
 		}
 	},
 	"Appearance": {
@@ -521,9 +521,9 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				0.087,
-				0.087,
-				0.087,
+				0.10000000149011612,
+				0.10000000149011612,
+				0.10000000149011612,
 				1.0
 			]
 		},
@@ -672,9 +672,9 @@
 			"clampMin": false,
 			"clampMax": false,
 			"val": [
-				0.5,
-				0.5,
-				0.5,
+				0.6,
+				0.6,
+				0.6,
 				1.0
 			]
 		},
@@ -793,6 +793,29 @@
 				1.0
 			]
 		},
+		"Writecolor": {
+			"name": "Writecolor",
+			"label": "Write Color",
+			"page": "Appearance",
+			"style": "RGBA",
+			"default": 0.0,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"min": 0.0,
+			"max": 1.0,
+			"normMin": 0.0,
+			"normMax": 1.0,
+			"clampMin": false,
+			"clampMax": false,
+			"val": [
+				0.0,
+				0.7350000143051147,
+				0.4164999723434448,
+				1.0
+			]
+		},
 		"Winoffset": {
 			"name": "Winoffset",
 			"label": "Window Offset",
@@ -824,7 +847,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": true
+			"val": false
 		},
 		"Currentpanel": {
 			"name": "Currentpanel",
